@@ -7,6 +7,7 @@ import Home from "./pages/Home.jsx";
 import LandingPage from "./pages/LandingPage.jsx";
 import Contact from "./pages/Contact.jsx";
 import { AuthUserProvider } from "./AuthUser";
+import AudiobookLibrary from './pages/AudiobookLibrary.jsx';
 
 const router = createBrowserRouter([
   {
@@ -15,7 +16,8 @@ const router = createBrowserRouter([
     children: [
       { index: true, element: <LandingPage /> },
       { path: "home", element: <Home /> },
-      { path: "contact-us", element :<Contact /> }
+      { path: "contact-us", element :<Contact /> },
+      { path: "audiobooks", element: <AudiobookLibrary /> }
     ],
     errorElement: <ErrorPage />,
   },

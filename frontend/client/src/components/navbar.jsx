@@ -16,6 +16,9 @@ const Navbar = () => {
             <li>
               <NavLink to="/contact-us">Contact Us!</NavLink>
             </li>
+            <li>
+              <NavLink to="/audiobooks">Audiobook Library</NavLink>
+            </li>
           </ul>
         </div>
       </div>
