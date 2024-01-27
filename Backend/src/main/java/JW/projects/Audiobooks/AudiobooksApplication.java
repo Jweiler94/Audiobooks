@@ -5,6 +5,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
 public class AudiobooksApplication {
+	public AudiobooksApplication() {}
 
 	public static void main(String[] args) {
 		SpringApplication.run(AudiobooksApplication.class, args);
