@@ -7,7 +7,6 @@ import Home from "./pages/Home.jsx";
 import LandingPage from "./pages/LandingPage.jsx";
 import Contact from "./pages/Contact.jsx";
 import { AuthUserProvider } from "./AuthUser";
-import './index.css';
 
 const router = createBrowserRouter([
   {

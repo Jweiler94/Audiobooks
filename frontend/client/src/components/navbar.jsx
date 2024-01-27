@@ -1,13 +1,12 @@
 import { NavLink } from 'react-router-dom';
-import { ReactComponent as Brand } from "../OpenBooksLogo.png";
-import './navbar.css';
+import Logo from "./logo";
 
 const Navbar = () => {
   return (
     <nav className="navbar">
       <div className="container">
         <div className="logo">
-          <Brand />
+          <Logo />
         </div>
         <div className="nav-elements">
           <ul>
@@ -21,7 +20,7 @@ const Navbar = () => {
         </div>
       </div>
     </nav>
-  )
-}
+  );
+};
 
-export default Navbar
+export default Navbar;
