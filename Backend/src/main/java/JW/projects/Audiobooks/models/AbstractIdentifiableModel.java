@@ -26,18 +26,20 @@ public abstract class AbstractIdentifiableModel {
             this.id = id;
         }
 
-        public int hashCode() {
+    public int hashCode() {
             return Objects.hash(new Object[]{this.id});
         }
 
-        public boolean equals(Object o) {
-            if (this == o) {
-                return true;
-            } else if (o != null && this.getClass() == o.getClass()) {
-                AbstractIdentifiableModel that = (AbstractIdentifiableModel) o;
-                return this.id == that.id;
-            } else {
-                return false;
-            }
+    public boolean equals(Object o) {
+        if (this == o) {
+            return true;
+        } else if (o != null && this.getClass() == o.getClass()) {
+            AbstractIdentifiableModel that = (AbstractIdentifiableModel) o;
+            return this.id == that.id;
+        } else {
+             return false;
         }
+    }
+
+
 }
