@@ -4,7 +4,7 @@ import LoginForm from "../components/login.jsx";
 
 const LandingPage = () => {
       return (
-            <div class="landing-page">
+            <div>
                   <h1>Welcome to OpenSourceBooks!</h1>
                   <nav></nav>
 
