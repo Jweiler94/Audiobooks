@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/Audiobooks.iml" filepath="$PROJECT_DIR$/.idea/Audiobooks.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/JW.projects.Audiobooks.main.iml" filepath="$PROJECT_DIR$/.idea/modules/JW.projects.Audiobooks.main.iml" />
     </modules>
   </component>
 </project>
