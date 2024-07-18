@@ -1,4 +1,4 @@
-export default function Audiobook({ book }) {
+export default function AudiobookCard({ book }) {
       return (
             <li classname="book-card">
                   <hgroup>
